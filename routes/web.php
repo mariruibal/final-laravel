@@ -29,3 +29,5 @@ Route::get('/adios', function () {
     return '<h1>Hola '. $nombre.'</h1>';
 });
 */
+
+Route::view('/portfolio', 'portfolio');
